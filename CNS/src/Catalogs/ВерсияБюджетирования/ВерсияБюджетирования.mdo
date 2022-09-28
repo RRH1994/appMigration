@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c2f3dba-49e3-4ee8-b19a-cc334ff9717d">
+  <producedTypes>
+    <objectType typeId="fdd8166e-48cd-44d8-9716-8e945d62dd15" valueTypeId="60e603f3-b2c3-4b10-aa9f-721898908782"/>
+    <refType typeId="2d8e1fae-9bd4-41aa-9c12-6079ef41a790" valueTypeId="526494d7-119d-45a0-a9fd-439a428e741b"/>
+    <selectionType typeId="04623ec8-06fd-4a7d-9d88-96116084384e" valueTypeId="cfba6897-f85b-4b7f-9cb5-104835f16719"/>
+    <listType typeId="17ef73ae-c067-4e05-894b-4695f6d9f61d" valueTypeId="458592b8-9378-4737-b1b7-fe1870e37a3d"/>
+    <managerType typeId="5ecb7a4e-580a-49c5-9475-19f593e4e4a3" valueTypeId="c346f9a9-e218-4d9a-a1f0-ffd3657c4145"/>
+  </producedTypes>
+  <name>ВерсияБюджетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия бюджетирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсияБюджетирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВерсияБюджетирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ОбъектыВерсионирования</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВерсияБюджетирования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВерсияБюджетирования.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="835a84e4-7ee1-4d7b-95a8-9ad378488b62">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7fa851f5-5081-4d8c-a582-47c73cfe0718">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42c91532-a666-4479-8691-2e495078adb9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52574d48-7179-43e9-a179-a3817655ac15">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="41f165ee-f187-4815-ac9d-7d2cce7d3572">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+  <templates uuid="50b5d9a1-a699-48aa-9d9c-f94c7a6dfc11">
+    <name>ПолучениеВерсийОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение версий объекта</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

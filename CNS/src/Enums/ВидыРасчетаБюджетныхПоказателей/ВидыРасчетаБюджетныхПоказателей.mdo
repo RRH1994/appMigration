@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaae85d6-9743-44cb-a7ff-9b98027af31b">
+  <producedTypes>
+    <refType typeId="e3e0e9a5-4e57-4415-95fc-b8b9cfd87844" valueTypeId="99c011a0-2bbe-44e0-b6e0-270eaf7dcef0"/>
+    <listType typeId="803d033a-b874-4050-a737-eb4a202d979b" valueTypeId="b6e2dc5d-799d-4419-b0f5-acc3e43c05e3"/>
+    <managerType typeId="1fd94220-1b47-46a2-9c94-e15e98b5b06c" valueTypeId="7da84cd2-3ddd-4214-9b27-91ae58c726dd"/>
+  </producedTypes>
+  <name>ВидыРасчетаБюджетныхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета бюджетных показателей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e9e4678-62ac-41d3-be2d-7c96dd1228d3">
+    <name>ПоНачислению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По начислению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af03bef8-361c-4e0d-ae00-a18b8422672a">
+    <name>ПоОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>По оплате</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

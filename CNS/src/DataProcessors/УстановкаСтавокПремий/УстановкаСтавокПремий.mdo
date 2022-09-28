@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cc8dca1-de5b-4866-ad3d-ebe4c23e10e4">
+  <producedTypes>
+    <objectType typeId="c672be37-aae2-4731-a6ed-87e7283bf470" valueTypeId="926bbb98-aa09-4431-abc8-2223ac1cfb2d"/>
+    <managerType typeId="81f6d958-503d-43c2-81b1-c4d2f8c43e83" valueTypeId="6e6a764f-f67f-4f8a-89bc-6494f4794f03"/>
+  </producedTypes>
+  <name>УстановкаСтавокПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка ставок премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаСтавокПремий.Form.Форма</defaultForm>
+  <forms uuid="b2281714-7ff7-481a-9f17-6b9964b59b89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="db5fe1d7-e996-40be-a5da-b2774f94ad7e">
+    <name>СтавкиПремий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставки премий</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

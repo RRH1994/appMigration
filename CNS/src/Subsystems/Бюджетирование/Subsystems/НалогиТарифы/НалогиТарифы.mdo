@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ca6f58-759f-469b-8e7f-c1992fcc78c0">
+  <name>НалогиТарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоги и тарифы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СтавкиНалогов</content>
+  <content>Catalog.ВидыВнебюджетныхФондов</content>
+  <parentSubsystem>Subsystem.Бюджетирование</parentSubsystem>
+</mdclass:Subsystem>

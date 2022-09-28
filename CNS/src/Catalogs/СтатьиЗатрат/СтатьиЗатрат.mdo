@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b86829-5659-4794-a2a7-1c54216dcb4e">
+  <producedTypes>
+    <objectType typeId="789bc3bc-f8d7-4058-9adc-cd656fd378da" valueTypeId="33628cb8-8b9d-4727-bcd4-b8f17547feaf"/>
+    <refType typeId="4e933279-8ebd-4cbc-b1a2-9be44890e3f6" valueTypeId="3fe4a005-0b6a-4768-a0e0-c6172a0c6580"/>
+    <selectionType typeId="8c1be20b-c46d-414b-9f04-73ea2d41f3fc" valueTypeId="d92355e3-2e9b-431c-9db0-1eee7a365250"/>
+    <listType typeId="cce07a0a-b1c8-4d46-9252-73bad285170c" valueTypeId="b6d5eae6-d11e-490d-88f4-f213d82ecf28"/>
+    <managerType typeId="c3066359-bbf0-4bd0-84ed-f99063162fd0" valueTypeId="e4729157-230d-4bc6-8a0b-3d6a50324618"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статья затрат</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>5</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатьиЗатрат.Form.ФормаГруппы</defaultFolderForm>
+  <forms uuid="185be4b8-4d73-4c56-9544-a4149f1e1dad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="862f69cf-90e1-4535-af4f-393f6fca5961">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="be141436-8c30-4ee4-8a9f-6468399bd3c1">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

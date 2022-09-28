@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfdd189d-df35-4b44-8dfd-374b3060093d">
+  <producedTypes>
+    <objectType typeId="01397fc4-1e6f-4500-9481-b69dc61c4933" valueTypeId="934ef056-bfb5-4ebc-bc49-f14aa52df972"/>
+    <managerType typeId="4d6d257e-e6f6-449c-bf32-d30f9375fe2f" valueTypeId="8ea4f3e7-c504-48e1-a062-047ccb9b83a4"/>
+  </producedTypes>
+  <name>УстановкаКоэффициентовНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка коэффициентов начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаКоэффициентовНачислений.Form.Форма</defaultForm>
+  <forms uuid="872f5512-b365-48c2-ae24-d28e6ed23010">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="709545b5-089e-4b84-987c-aaa2173b5c33">
+    <name>КоэффициентыНачислений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициенты к суммам начислений</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

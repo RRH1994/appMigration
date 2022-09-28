@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6bbe1bb-65cb-4999-b6b6-90f83da9104f">
+  <name>ФормированиеБюджетовПрогнозов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование бюджетов и прогнозов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ГруппировкиНачисленийПоСтатьямЗатрат</content>
+  <content>Report.АнализНачисленийПоСтатьям</content>
+  <content>Report.РасчетыПоказателейБюджета</content>
+  <content>Report.РасчетыПоказателейБюджетаСводный</content>
+  <content>Report.РасчетыПоказателейБюджетаСравнениеВерсий</content>
+  <subsystems>ФункциональныеБюджетыПрогнозы</subsystems>
+  <subsystems>МастерБюджетыПрогнозы</subsystems>
+  <parentSubsystem>Subsystem.Бюджетирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19a99722-79c6-40ff-ab09-67a5d97f00f7">
+  <producedTypes>
+    <objectType typeId="fc6da643-aaed-4c58-a49c-43d959cb7c91" valueTypeId="a0cef513-abf0-41b7-a65a-4a03dc25681c"/>
+    <refType typeId="79f00718-a52b-424e-a880-6281356d830d" valueTypeId="4c9aa42b-e7b5-42e2-a222-30a02dcae14a"/>
+    <selectionType typeId="d55b2509-2b73-402d-a4df-6afd18e69c54" valueTypeId="df29a039-26c3-4459-b1e6-45cb3be5ad40"/>
+    <listType typeId="440364b1-e82a-43a5-a281-8ccf019bc467" valueTypeId="0dd0914c-c383-43a2-8b05-2e692d8c54a2"/>
+    <managerType typeId="ae4ae666-5796-4e1c-955e-b5b4a79a6080" valueTypeId="1b131007-0467-4550-8ae3-7ca34ca7ea9f"/>
+  </producedTypes>
+  <name>ПозицииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции штатного расписания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПозицииШтатногоРасписания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Позиция штатного расписания</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПозицииШтатногоРасписания.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПозицииШтатногоРасписания.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="417f5059-32ba-4252-b71a-924577de5a97">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, к которому относится позиция штатного расписания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e1b0fde-ffbb-4782-b12a-d52f66e77bfa">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность, к которой относится позиция штатного расписания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eabe6064-f49a-47be-8795-c9aa5af13205">
+    <name>РуководящаяПозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководящая позиция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7f312e7-7ad0-406a-bd75-46283f99de07">
+    <name>СтатусПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус позиции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПозицииШтатногоРасписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09a8e304-8fea-46bb-b4e0-02b818823c90">
+    <name>ИсточникФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник финансирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиФинансирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38339768-7e55-42ab-ad9b-bccb83f10d46">
+    <name>СервисныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисный проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СервисныеПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3da0b9af-c7a4-41c9-a163-53d7afaa9a55">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0edb7189-8040-4886-9737-489dc34af6c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4f6e44ed-8736-42eb-99d1-1bef95e1df63">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

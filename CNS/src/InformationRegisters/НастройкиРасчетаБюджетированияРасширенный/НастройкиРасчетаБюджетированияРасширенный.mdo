@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39517dbe-90c4-4101-92df-d61b8fce46a9">
+  <producedTypes>
+    <selectionType typeId="a4bbb88e-1849-478d-a8f8-599f057b1016" valueTypeId="725ebaae-35c7-4085-9f64-ec92054ed9e6"/>
+    <listType typeId="049e0545-1162-4048-bff7-3848f7fc9e48" valueTypeId="d5f7e843-8e5f-47f5-8a7f-9b2bdac7d198"/>
+    <managerType typeId="8957f18d-330f-4fa7-a756-5e0340f6f505" valueTypeId="e6b0bbb0-3919-4b30-890f-7f6891e20eba"/>
+    <recordSetType typeId="7ad2d22d-0276-48db-b89a-1a23f4441f83" valueTypeId="e0655b6e-6574-491e-af7d-b68a4297bbb6"/>
+    <recordKeyType typeId="17163c89-c465-41ad-a015-1dad07155405" valueTypeId="78160d6e-7e01-4db9-92bc-1798b51e9ebf"/>
+    <recordType typeId="7d4f4ff3-ffb7-47bf-940b-efd0ea593fe2" valueTypeId="b651fccf-7073-4492-be5c-e99af4bd5993"/>
+    <recordManagerType typeId="5710ab91-d4a2-438b-b4f6-551d9b3b3c15" valueTypeId="f48cb4b8-d05e-4e60-b9ac-6128fad28916"/>
+  </producedTypes>
+  <name>НастройкиРасчетаБюджетированияРасширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки расчета бюджетирования расширенный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1fc3b916-03cd-444b-8c98-1eba6eafd286">
+    <name>ВыполнятьРасчетПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять расчет по подразделениям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+</mdclass:InformationRegister>

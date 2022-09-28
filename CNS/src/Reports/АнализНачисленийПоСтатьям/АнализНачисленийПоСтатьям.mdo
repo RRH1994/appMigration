@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9c2cf92-9aae-46a2-bb4c-e964c5e9038c">
+  <producedTypes>
+    <objectType typeId="0b0cf6a9-c30c-4feb-a3dc-8a1265751b62" valueTypeId="c4473532-0d9b-4c7c-a5ae-b245826bab55"/>
+    <managerType typeId="e246c161-acca-4602-8f5b-a1097fcb125d" valueTypeId="772d7e52-b0e0-481d-859c-d1918cbcf7b0"/>
+  </producedTypes>
+  <name>АнализНачисленийПоСтатьям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ начислений по статьям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализНачисленийПоСтатьям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="d797c5ce-c512-4d7e-bd1c-be50b2c9815e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

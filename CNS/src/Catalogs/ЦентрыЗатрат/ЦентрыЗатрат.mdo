@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8526420e-6788-47e7-b0b2-04767240795d">
+  <producedTypes>
+    <objectType typeId="d677c993-6ddc-41f3-85c8-98951a533792" valueTypeId="808cf48d-6c49-4124-9fe3-56c69f34ed78"/>
+    <refType typeId="1df69d8d-c96f-4883-b016-0f0a53e3ac2b" valueTypeId="d9a83608-afe6-481a-a81b-5b6bf222431b"/>
+    <selectionType typeId="2df57eff-b793-41df-b97b-71c0a4bd309e" valueTypeId="bd8abf0d-e517-4f26-b092-3a86e987ac41"/>
+    <listType typeId="28a28ce9-4606-48c5-8a12-e776c70bf07d" valueTypeId="6f546c87-a9b6-4fe3-a43e-f978ed5c7c69"/>
+    <managerType typeId="eaad3b55-9a10-41dc-b352-20f3670b2f4a" valueTypeId="20af0ad4-d863-4ef8-b4b1-d2d1a5c9bc8a"/>
+  </producedTypes>
+  <name>ЦентрыЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центры затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦентрыЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦентрыЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦентрыЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e589ba8d-3553-418d-bba9-55ab41d0ecb8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5ed3eb2-7c88-4295-9614-4051d018b94a">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="884c063a-4a57-4e89-8957-7c1344381754">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

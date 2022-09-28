@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f4a0f05-b438-4767-91d4-a77d1b89c9d4">
+  <producedTypes>
+    <refType typeId="61fd30e3-0f7e-4a90-96d9-693e56acf179" valueTypeId="fad72287-ae52-42f3-afd6-addf483a3e58"/>
+    <listType typeId="cd0bcd6e-a7d6-413e-87fd-0a61a0d63b6c" valueTypeId="70032faf-cb38-4eb4-8253-1aabaddada93"/>
+    <managerType typeId="3d82d53a-460e-4252-a53e-bbd77af69cc2" valueTypeId="86f2d010-3dab-428e-a7a7-2a5cd236b2e4"/>
+  </producedTypes>
+  <name>СтатусыДокументовБюджетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов бюджетирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bbbb5bbe-d354-465c-939b-b7c7eea7ffc0">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9152a201-8d92-44e9-a2f3-140111e54714">
+    <name>ВПодготовке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В подготовке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec4db52b-7e08-4ae4-aa2c-9e477c4dd8e4">
+    <name>НаУтверждении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На утверждении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e7d6fb-1220-42d3-bcd4-8e23434d958f">
+    <name>Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

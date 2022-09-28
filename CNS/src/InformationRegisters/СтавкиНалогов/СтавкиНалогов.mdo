@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f364777c-7791-4f6d-859c-8538cef70d16">
+  <producedTypes>
+    <selectionType typeId="356db2b1-c097-40ce-b29e-f065ec3bd85a" valueTypeId="75158ffb-6f6e-46a4-b875-52ffe25de39d"/>
+    <listType typeId="71eb062d-11c0-4e6d-b1b7-bf3f0396ea97" valueTypeId="c3052d04-db1f-4997-b917-b4a36d0ee68d"/>
+    <managerType typeId="9ce7787a-7a94-4475-aab9-2fe72d8e34c6" valueTypeId="e149edfe-3786-4d66-91dc-7e1b4f5d69b0"/>
+    <recordSetType typeId="53f5564a-319b-42fb-9ec1-de64e9df4011" valueTypeId="050df0c5-9d03-4894-9008-5c3d5d999a6b"/>
+    <recordKeyType typeId="495c6397-ad4c-436f-b31d-adb5d400c6e2" valueTypeId="80c553ab-c560-45ce-9cb3-32371f50445d"/>
+    <recordType typeId="2c9919a5-99a7-4e02-bba4-6fb51f0e2861" valueTypeId="2687c2ae-7b8f-4b27-8d61-314a11191ac2"/>
+    <recordManagerType typeId="8056d32c-5380-4413-bbac-79c84739ca1d" valueTypeId="4994dddf-5f8b-4b0c-985a-84c76b06cdf6"/>
+  </producedTypes>
+  <name>СтавкиНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки налогов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ставки налогов</value>
+  </recordPresentation>
+  <resources uuid="e43ad842-2126-48b7-bbdf-5d09bb4e6547">
+    <name>СтавкаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fa7c088c-4b9d-4c82-a702-f891456f8258">
+    <name>ГраницаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d9e12637-6a35-4526-b6ae-de7ee11f10ea">
+    <name>СтавкаНалогаПослеГраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (после границы)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bef7a847-ea64-4c91-a54a-09bb9fdf2d87">
+    <name>СтавкаНалогаПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (прочее)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dc9bc4b3-b4d5-4294-8785-c972bc902a65">
+    <name>СтавкаНалогаКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (корр)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4c473f72-053f-42cb-bcec-bd75e12d9f92">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9f93f02a-aeaa-4791-8073-828192b74510">
+    <name>ВидВнебюджетногоФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид внебюджетного фонда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВнебюджетныхФондов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="46ee1c9b-3aba-4582-97b1-6986ee55994f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о действующих ставках налогов по периодам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Информация о действующих ставках налогов по периодам</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

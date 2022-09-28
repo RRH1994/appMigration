@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a02f5b4-1d9b-44a5-91f4-344d83df2430">
+  <name>ОтложенноеПроведениеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное проведение документов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.БюджетированиеПриложения</parentSubsystem>
+</mdclass:Subsystem>

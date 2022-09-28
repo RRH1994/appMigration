@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b001e4c5-5e87-45de-8afa-be8fc192faf7">
+  <name>ИспользоватьНесколькоОрганизацийБюджетированиеБазовая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько организаций бюджетирование базовая</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоОрганизаций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗагрузочнаяТаблица.Attribute.Организация</content>
+  <content>Document.РасчетРезерва.Attribute.Организация</content>
+  <content>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Организация</content>
+  <content>Document.БюджетПрогнозПоОплате.Attribute.Организация</content>
+  <content>Document.БюджетПрогнозПоНачислению.Attribute.Организация</content>
+</mdclass:FunctionalOption>

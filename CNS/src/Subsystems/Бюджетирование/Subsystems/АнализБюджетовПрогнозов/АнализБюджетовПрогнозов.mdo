@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dce63aed-666c-49d9-a35f-85db892834e6">
+  <name>АнализБюджетовПрогнозов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ бюджетов и прогнозов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Бюджетирование</parentSubsystem>
+</mdclass:Subsystem>

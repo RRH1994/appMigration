@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c809eae2-402c-4e9f-b54c-29ac81cb8b61">
+  <producedTypes>
+    <refType typeId="657ee608-6d06-4877-b0cb-d31850039f8d" valueTypeId="02a83fe0-1c30-4807-89eb-5f34bcc177f7"/>
+    <listType typeId="fd154efc-c315-485e-ae14-236fa4a6d778" valueTypeId="596cb0f8-25f1-48a2-88ed-411f258836a3"/>
+    <managerType typeId="27070b77-f0ce-40ff-ba79-31f75a9d2505" valueTypeId="89866a30-3017-40ee-bf95-89bea6e818cc"/>
+  </producedTypes>
+  <name>ПериодыХраненияЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды хранения значений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56870606-981c-4431-99a9-7e47d5691021">
+    <name>Квартал1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b46a29aa-3048-468c-9dbd-4101dfbbce23">
+    <name>Квартал2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="896a8a9d-1ef7-414a-a410-410f9698c0db">
+    <name>Квартал3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0ab913e-8749-40d5-8e83-5463bc558183">
+    <name>Квартал4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a801e93-6dd2-4517-87c2-706a235ee0fc">
+    <name>Полугодие1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e99ceb-4a7a-4c01-bdab-c78bc9e6f183">
+    <name>Полугодие2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcae1db1-d3b9-4f18-95d5-f4e1c57f8806">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71bcafd9-5792-45bc-b9a5-4267ed9d8a52">
+    <name>ПервыйГодБюджетногоЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый год бюджетного цикла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

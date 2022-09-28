@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6080670c-935a-4ec1-83f3-fd59dd5ca81b">
+  <producedTypes>
+    <objectType typeId="cdc2e2e6-d29d-4cc8-a1b3-f718dc4eeb3d" valueTypeId="09eba41b-9583-4588-900e-d6bc8fd7d7f7"/>
+    <refType typeId="c75ba48d-fe3c-4609-8c54-e15ca4dab096" valueTypeId="5bfdf174-0966-4019-a340-a71869569881"/>
+    <selectionType typeId="fb7229e4-07d9-469d-a797-35ac91ed206c" valueTypeId="fbce029c-a192-4586-a594-7601d9664ad8"/>
+    <listType typeId="9bbf7d84-0389-473f-86c3-43a7c19c8146" valueTypeId="e3617be8-bcfb-4a4c-9b0a-365cb2e73eda"/>
+    <managerType typeId="d80118b3-81f2-4dbf-b01e-ce79d76300e0" valueTypeId="30217658-d695-4b77-86e1-d0f12a4e379b"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Управленческие подразделения</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список подразделений, описывающих структуру предприятия. </value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

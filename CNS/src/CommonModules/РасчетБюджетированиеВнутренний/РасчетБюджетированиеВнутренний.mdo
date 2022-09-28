@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0c337a0-de83-49ee-9c4c-b88aac55a6f7">
+  <name>РасчетБюджетированиеВнутренний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет бюджетирование внутренний</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

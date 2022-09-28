@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b83c365-7a9a-4e58-9ef7-4d3266c1e8db">
+  <producedTypes>
+    <selectionType typeId="95a54cfb-d4d7-4277-9bba-de26682e9339" valueTypeId="5ca2a1eb-81f4-47b2-a7bd-3a9c0eb3290b"/>
+    <listType typeId="a922f4ff-b07a-4530-b43c-40abe2b4fc65" valueTypeId="caff3c2c-3caa-439c-83b8-c1e148bea54a"/>
+    <managerType typeId="5b99819b-8a98-4349-afe0-16932969132f" valueTypeId="d8a3d439-25c3-435b-a168-e108bafe11eb"/>
+    <recordSetType typeId="992c7311-73db-4a23-8234-e4481837fde8" valueTypeId="c26ab618-c7e7-4baa-a425-fc962d46c470"/>
+    <recordKeyType typeId="8d242344-ced7-45e9-96db-bbdd79a86415" valueTypeId="3c624c6e-d6d8-403b-8317-f974689e0b33"/>
+    <recordType typeId="f590ddb7-df51-41de-aacb-1b71681c4af7" valueTypeId="c1138a3b-1060-48fc-bd92-b7a5fdc69c99"/>
+    <recordManagerType typeId="cb68ba07-9158-4da1-83ca-afbdc1d65109" valueTypeId="ffc7165f-a0fc-44e0-9695-301a18227b8a"/>
+  </producedTypes>
+  <name>НастройкиБюджетированияРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки бюджетирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка бюджетирования организации (расширенная)</value>
+  </recordPresentation>
+  <resources uuid="b2e923c6-32be-4937-ad35-77fa80271e14">
+    <name>МесяцПервогоПлатежаЗаДМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц первого платежа за ДМС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ccfae4e6-f123-4dc8-a81d-da1d65a445a3">
+    <name>МесяцВторогоПлатежаЗаДМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц второго платежа за ДМС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="368c5202-d59f-4b55-8d2c-af8dd66f5b26">
+    <name>МесяцВыплатыКвартальнойПремииЗа4Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц выплаты квартальной премии за 4 квартал</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da17aaee-c371-4f47-b069-1cccd78fd997">
+    <name>МесяцВыплатыГодовойПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц выплаты годовой премии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d8e42be8-38c8-4d61-829b-0661ccd2bf80">
+    <name>МесяцВыплатыПремииЗа2Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц выплаты премии за 2 полугодие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f87fed2e-d761-4c43-8ef7-6f4f5b3dcbe6">
+    <name>МесяцУплатыНалоговСНачисленийДекабря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц уплаты налогов с начислений декабря</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51c5628f-1dc0-4450-9c42-8f624391668e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6dfde4c6-5414-4e9f-a452-832d5be8b937">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="102e4c4a-c76e-4af0-aad0-c3ca3e6f4b80">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды выплаты начислений</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

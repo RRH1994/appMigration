@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36dc907-a261-485f-bd96-c4f280271636">
+  <producedTypes>
+    <selectionType typeId="e15b3d1f-d3ee-4bb2-bce5-0a0438caa82e" valueTypeId="94c31705-f00d-4e6d-b3bb-35f9e4668811"/>
+    <listType typeId="708f7b93-0705-4297-b42c-99acf6326bd9" valueTypeId="502173d1-e74f-4e29-a7ba-23b0868b46ee"/>
+    <managerType typeId="30a08615-1c04-45f4-b7af-30abfd0311db" valueTypeId="cedc5a34-f831-4c97-9261-ed7f18e6514d"/>
+  </producedTypes>
+  <name>ВсеБюджетныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все бюджетные документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ВсеБюджетныеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.БюджетПрогнозПоНачислению</registeredDocuments>
+  <registeredDocuments>Document.БюджетПрогнозПоОплате</registeredDocuments>
+  <registeredDocuments>Document.ЗагрузочнаяТаблица</registeredDocuments>
+  <registeredDocuments>Document.РасчетПоказателейБюджетовПрогнозов</registeredDocuments>
+  <registeredDocuments>Document.РасчетРезерва</registeredDocuments>
+  <columns uuid="7f70e839-9fde-4acc-bb16-f970f3065e68">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.Организация</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.Организация</references>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.Организация</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Организация</references>
+    <references>Document.РасчетРезерва.Attribute.Организация</references>
+  </columns>
+  <columns uuid="e668b3e3-47e8-40d1-bf5f-3659d01d222b">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.Подразделение</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.Подразделение</references>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.Подразделение</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Подразделение</references>
+    <references>Document.РасчетРезерва.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="f860d748-0e92-4f1e-8704-cd9b358935f9">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.Ответственный</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Ответственный</references>
+    <references>Document.РасчетРезерва.Attribute.Ответственный</references>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.Ответственный</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="80261eb5-4baa-40a5-8fa8-7525688589ab">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.Комментарий</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.Комментарий</references>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.Комментарий</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Комментарий</references>
+    <references>Document.РасчетРезерва.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="763f3d63-a36d-4a1d-b14c-4a29a6f84994">
+    <name>МестоВозникновенияЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место возникновения затрат</value>
+    </synonym>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.МестоВозникновенияЗатрат</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.МестоВозникновенияЗатрат</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.МестоВозникновенияЗатрат</references>
+    <references>Document.РасчетРезерва.Attribute.МестоВозникновенияЗатрат</references>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.МестоВозникновенияЗатрат</references>
+  </columns>
+  <columns uuid="18124f90-1beb-4686-830f-dc7485f18dec">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <references>Document.БюджетПрогнозПоНачислению.Attribute.Статус</references>
+    <references>Document.БюджетПрогнозПоОплате.Attribute.Статус</references>
+    <references>Document.ЗагрузочнаяТаблица.Attribute.Статус</references>
+    <references>Document.РасчетПоказателейБюджетовПрогнозов.Attribute.Статус</references>
+    <references>Document.РасчетРезерва.Attribute.Статус</references>
+  </columns>
+  <forms uuid="38d208f9-5568-4314-9e03-fac5a0dfb1fa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

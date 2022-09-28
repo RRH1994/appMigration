@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13111c9b-9c2c-483f-8872-11e7995ee969">
+  <name>ПодсистемаБюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема бюджетирование</value>
+  </synonym>
+</mdclass:Role>

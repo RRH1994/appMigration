@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48f795e6-a482-44b6-9065-9c2703fc7a60">
+  <producedTypes>
+    <selectionType typeId="8fe1f911-bcee-4da9-a5ba-2643f8ff85e4" valueTypeId="ac2182a9-8219-4b39-8bbc-67320c0293a8"/>
+    <listType typeId="350c935b-722d-40c3-b30f-51c565c0f8bf" valueTypeId="a228c77c-44f7-439a-8078-3032981b7590"/>
+    <managerType typeId="6802ad07-8999-4797-a1b3-0f98780ab865" valueTypeId="88b6d00d-c5ff-48ca-9d06-c582754abfad"/>
+    <recordSetType typeId="256c02f8-0d10-440a-9d71-aa7f13311a8f" valueTypeId="e6ea9c45-dbdd-4de9-8d06-f619af8f98fa"/>
+    <recordKeyType typeId="81503bd3-d7d1-4473-8678-946479914b48" valueTypeId="63fdd010-f4ed-480c-8da7-51faa4ae9e37"/>
+    <recordType typeId="4912282d-b9cc-4f7b-a3e9-6c425a25abf2" valueTypeId="233379cb-9d4f-4124-b177-37f27e4bfad6"/>
+    <recordManagerType typeId="970fa7c5-18ff-4d8e-b366-10a45fed094c" valueTypeId="094eb71d-5753-4f8c-9061-77f58fe6dbd0"/>
+  </producedTypes>
+  <name>СтавкиПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Устанавливаются ставки, применяемые к начисленным суммам премий (по годам). При вводе выполняется проверка вида начисления по типу &quot;Премия&quot;</value>
+  </explanation>
+  <resources uuid="55da3d54-5d0d-4875-bbdf-553e21c3664b">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (%)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7b3185c5-2c79-4a4c-b851-a66345d7ff34">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ed5c73e8-dae0-4a78-9bbf-e8c35cf0d2d5">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0415fd4f-0498-4338-8884-530341ab2299">
+    <name>КодГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="62d043e2-5ac2-4511-93d8-546b3945daf2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставки премий</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

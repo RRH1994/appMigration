@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c8c95c4-9a44-414e-9b61-caa759cfe095">
+  <name>Бюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DocumentJournal.ВсеБюджетныеДокументы</content>
+  <content>Document.БюджетПрогнозПоНачислению</content>
+  <content>Document.БюджетПрогнозПоОплате</content>
+  <content>Document.ЗагрузочнаяТаблица</content>
+  <content>Document.РасчетПоказателейБюджетовПрогнозов</content>
+  <content>Document.РасчетРезерва</content>
+  <content>Catalog.ВидыВнебюджетныхФондов</content>
+  <content>Catalog.ВидыНачислений</content>
+  <content>Catalog.Грейды</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.ИсточникиФинансирования</content>
+  <content>Catalog.КодыГрейдов</content>
+  <content>Catalog.МестаВозникновенияЗатрат</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Catalog.СервисныеПроекты</content>
+  <content>Catalog.ПозицииШтатногоРасписания</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Организации</content>
+  <content>7b8e5fb9-e51f-4048-a9f7-1cea310989ef</content>
+  <subsystems>ВводДанных</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>ФормированиеБюджетовПрогнозов</subsystems>
+  <subsystems>АнализБюджетовПрогнозов</subsystems>
+  <subsystems>НалогиТарифы</subsystems>
+  <subsystems>НачисленияКоэффициенты</subsystems>
+  <subsystems>АналитическиеОтчеты</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="139eea09-fdeb-491d-89a2-590f76dfb09e">
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Организации</content>
+  <content>Constant.НеИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOption.ПрефиксыОрганизаций</content>
+  <content>CommonModule.ОрганизацииСлужебный</content>
+  <content>FunctionalOption.ИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOption.НеИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOptionsParameter.Организация</content>
+  <content>Constant.ИспользоватьНесколькоОрганизаций</content>
+  <content>EventSubscription.ПроверитьЗначениеОпцииИспользоватьНесколькоОрганизаций</content>
+  <parentSubsystem>Subsystem.БюджетированиеПриложения.Subsystem.БазовыеСправочныеДанные</parentSubsystem>
+</mdclass:Subsystem>

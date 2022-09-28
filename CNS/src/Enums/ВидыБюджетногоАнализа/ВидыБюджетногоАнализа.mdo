@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af34ae70-aab2-42aa-a90e-337713fb05f7">
+  <producedTypes>
+    <refType typeId="8db36df1-d7e0-4b0d-a089-e0e0deab212b" valueTypeId="ce64e6fd-d838-4c4f-831d-60f01256d0fe"/>
+    <listType typeId="7a27352d-1346-4eb9-98aa-897a0ff40cd1" valueTypeId="f7b21dd0-9002-40a5-8138-1be218f1547e"/>
+    <managerType typeId="d56ef99e-e959-4a19-83dc-07861d43b5f9" valueTypeId="56e54f3f-7695-4a85-bd11-c22d66689798"/>
+  </producedTypes>
+  <name>ВидыБюджетногоАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды бюджетного анализа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d0f488b-ce50-4cd7-83df-2275da69562d">
+    <name>Бюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad7213ec-052f-46e5-a730-4c28e1e3c905">
+    <name>Прогноз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогноз</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

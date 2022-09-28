@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fff6e0d7-a22c-41cf-bfc3-5619bf7b9be3">
+  <producedTypes>
+    <managerType typeId="f197f9e5-8135-4932-bf3f-e5328db709af" valueTypeId="744a8389-cb94-4d49-b6b4-194279e1919c"/>
+    <valueManagerType typeId="37d88920-b145-4714-8d1a-4f626f151f1b" valueTypeId="e22e035b-8368-438e-930d-3cb55ab9be46"/>
+    <valueKeyType typeId="3d62693d-37db-4e30-860f-22eda2219eb9" valueTypeId="add47731-4e48-4f77-bfba-95d05b13553c"/>
+  </producedTypes>
+  <name>ОграничиватьДоступНаУровнеЗаписейПодразделенияОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ на уровне записей подразделения организаций</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

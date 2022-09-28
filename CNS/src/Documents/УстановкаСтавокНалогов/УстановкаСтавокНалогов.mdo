@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8777ba0f-be35-4199-9fba-901e2eccfde1">
+  <producedTypes>
+    <objectType typeId="cb1bd252-38ef-4ee0-a9f1-8bd49ba39ca9" valueTypeId="65685ced-0130-4ddb-bfc5-a6069ecadd19"/>
+    <refType typeId="af077ae0-2f7d-4043-aefb-caa5a39aa956" valueTypeId="cfa3950f-5fae-4105-9c3c-82c5fbd71f19"/>
+    <selectionType typeId="a6cb509a-d9c4-4bc4-91dc-5b0c8293343a" valueTypeId="05fca8bc-3e3c-40ab-82df-866a8bd54017"/>
+    <listType typeId="cef26f82-0f93-41b6-a8b1-73bbfb2a4be2" valueTypeId="34ab68e9-fc93-4668-9734-b793230b006e"/>
+    <managerType typeId="94377d14-eefb-4032-945b-2558f90f048c" valueTypeId="fd9fd01d-62b4-4a3d-a0e9-70c41d8077eb"/>
+  </producedTypes>
+  <name>УстановкаСтавокНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка ставок налогов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаСтавокНалогов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаСтавокНалогов.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СтавкиНалогов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d984f1ae-fb20-44de-9901-ac234f0362e8">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="885bd1c5-f098-4ed6-bf38-832da2a27fd2">
+    <name>ВидВнебюджетногоФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид внебюджетного фонда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВнебюджетныхФондов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72dd83b3-bbb1-483e-b18f-05301d6bb3f6">
+    <name>СтавкаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e757753f-83b9-48c2-aec2-737b71ff9d00">
+    <name>ГраницаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9bb0ae9-b622-4694-b7cb-22cc4be51608">
+    <name>СтавкаНалогаПослеГраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (после границы)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="109aced6-96af-4b93-bfbb-4bbaf3faa782">
+    <name>СтавкаНалогаПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (прочее)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82331bbd-e0ed-41da-944c-053863ab1c38">
+    <name>СтавкаНалогаКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога (корр)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="133763d3-e164-4781-a840-ced7849f2a8a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

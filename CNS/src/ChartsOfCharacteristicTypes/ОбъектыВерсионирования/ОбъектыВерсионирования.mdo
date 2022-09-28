@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f347c12-6495-4b3b-80f9-a78359664aa8">
+  <producedTypes>
+    <objectType typeId="9c7bf232-c95b-421d-a026-08ed0509d513" valueTypeId="9d812679-c902-41fd-bcf9-6ee3b064bb85"/>
+    <refType typeId="7e004242-54ca-42d2-a0a8-fcf6e260a2f0" valueTypeId="cd3c6b1f-8602-4d84-a631-3a077f86c0a4"/>
+    <selectionType typeId="d4b5a469-db8b-481d-a45e-ab56260c3f57" valueTypeId="4643b799-da6b-4d65-88d0-5c6d86ffe30b"/>
+    <listType typeId="4d18b04a-3cfa-4515-914e-489b8f6cca10" valueTypeId="7616ec8d-3b45-4c34-97c9-608d2df582c7"/>
+    <managerType typeId="ab003109-7cd1-4d73-9264-3a6638432f07" valueTypeId="daba9233-37d1-4190-a04c-0ff2b90cd5c5"/>
+    <containerType typeId="c3347e97-df8c-4b08-8159-988836a0dacb" valueTypeId="739fd848-60bb-4fef-a82d-67fc0288d0f0"/>
+  </producedTypes>
+  <name>ОбъектыВерсионирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты версионирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ОбъектыВерсионирования.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ОбъектыВерсионирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Объект версионирования</value>
+  </objectPresentation>
+  <type>
+    <types>DocumentRef.БюджетПрогнозПоОплате</types>
+    <types>DocumentRef.ЗагрузочнаяТаблица</types>
+    <types>DocumentRef.БюджетПрогнозПоНачислению</types>
+    <types>DocumentRef.РасчетРезерва</types>
+    <types>CatalogRef.Сценарии</types>
+    <types>DocumentRef.РасчетПоказателейБюджетовПрогнозов</types>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5e8ec874-d21e-4600-8c8c-c89d6c7097ac">
+      <name>БюджетПрогнозПоНачислению</name>
+      <description>Бюджет прогноз по начислению</description>
+      <code>000000002</code>
+      <type>
+        <types>DocumentRef.БюджетПрогнозПоНачислению</types>
+      </type>
+    </items>
+    <items id="40a128c1-96d4-4c86-95e1-26721c027efa">
+      <name>БюджетПрогнозПоОплате</name>
+      <description>Бюджет прогноз по оплате</description>
+      <code>000000003</code>
+      <type>
+        <types>DocumentRef.БюджетПрогнозПоОплате</types>
+      </type>
+    </items>
+    <items id="02ceab9f-0199-47d3-bbf0-84e65acb3288">
+      <name>ЗагрузочнаяТаблица</name>
+      <description>Загрузочная таблица</description>
+      <code>000000004</code>
+      <type>
+        <types>DocumentRef.ЗагрузочнаяТаблица</types>
+      </type>
+    </items>
+    <items id="8da96eb5-86d2-438f-8ae0-ce61373e0df7">
+      <name>РасчетПоказателейБюджетовПрогнозов</name>
+      <description>Расчет показателей бюджетов прогнозов</description>
+      <code>000000005</code>
+      <type>
+        <types>DocumentRef.РасчетПоказателейБюджетовПрогнозов</types>
+      </type>
+    </items>
+    <items id="32557a2b-d613-4f40-8849-024c4b01d900">
+      <name>РасчетРезерва</name>
+      <description>Расчет резерва</description>
+      <code>000000006</code>
+      <type>
+        <types>DocumentRef.РасчетРезерва</types>
+      </type>
+    </items>
+    <items id="94a04ad8-f753-4e8a-befa-3e512eb09fc1">
+      <name>Сценарии</name>
+      <description>Сценарии</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Сценарии</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ОбъектыВерсионирования.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e69da3ba-5eb6-4d78-a96a-2dd0800fce24">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

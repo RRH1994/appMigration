@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520bca4d-aae4-40b1-94e5-cf0eec9ca9c7">
+  <producedTypes>
+    <objectType typeId="3f8e3985-ba1d-420d-9422-36ecf148627d" valueTypeId="485c4c07-3eb7-42c7-8bcb-b7068b260278"/>
+    <refType typeId="300ef00e-e43d-43da-9f60-31aff78709f3" valueTypeId="4dd967fa-da19-4184-9a2c-73a4e6c73d29"/>
+    <selectionType typeId="46ee54bc-6533-43e8-ae64-e37c1597f4fd" valueTypeId="f5992bdf-4a97-419e-9360-2036f251a018"/>
+    <listType typeId="441bd0be-b05f-4cac-aac1-3d2d73baea1d" valueTypeId="184baf0c-b83a-41d7-81e1-6fe4efa6ea06"/>
+    <managerType typeId="afbdfca5-eebd-4e83-a5e1-d7e101bf5475" valueTypeId="4b6bcf17-be6f-4e00-b9f1-f9e188dac931"/>
+  </producedTypes>
+  <name>СервисныеПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СервисныеПроекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СервисныеПроекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сервисный проект</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Сервисный проект ЕАСУУ, на который относятся расходы на сотрудника</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="4b92714b-f680-4339-9930-9a4d2a86c0c6">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9953e369-9f01-4511-8d6b-0bbceb2f5039">
+  <name>ФункциональныеБюджетыПрогнозы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональные бюджеты (прогнозы)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасчетПоказателейБюджетовПрогнозов</content>
+  <content>Document.РасчетРезерва</content>
+  <parentSubsystem>Subsystem.Бюджетирование.Subsystem.ФормированиеБюджетовПрогнозов</parentSubsystem>
+</mdclass:Subsystem>

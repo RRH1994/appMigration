@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="645f333b-19c4-44dd-8776-39c7df34b4d4">
+  <name>РасчетБюджетированияРасширенныйВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет бюджетирования расширенный вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

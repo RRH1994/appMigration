@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c54192cb-bf6a-4447-9592-5b7585fa3258">
+  <producedTypes>
+    <objectType typeId="756cdef0-33a0-48f0-b0c4-78930d647a40" valueTypeId="326e72be-b24b-41f5-8e95-c35e44e6f81a"/>
+    <refType typeId="11388d76-86d4-4a76-a863-a76eedb8fc10" valueTypeId="720120c7-331f-4561-84ad-55c65abe2058"/>
+    <selectionType typeId="9394a950-9efc-4102-9ec8-4703bd8d2099" valueTypeId="61db5734-d8d1-4a2a-9ed7-db62f14dd792"/>
+    <listType typeId="ec8e1d8e-df70-4a0d-be85-f20cfc2cbfc8" valueTypeId="482fb300-ea9a-4256-afb5-7e62f127cf3f"/>
+    <managerType typeId="58a72654-f9c9-4fe5-ba50-3b4ce1e10089" valueTypeId="74625afe-b818-4d98-9623-a40c8d65c01f"/>
+  </producedTypes>
+  <name>ГруппыДоступаФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыДоступаФизическихЛиц.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДоступаФизическихЛиц.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа доступа физических лиц</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

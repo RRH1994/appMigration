@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="279d6736-2bc8-4654-a9c9-c80b1d6b9ca2">
+  <name>АналитическиеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитические отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>7b8e5fb9-e51f-4048-a9f7-1cea310989ef</content>
+  <parentSubsystem>Subsystem.Бюджетирование</parentSubsystem>
+</mdclass:Subsystem>

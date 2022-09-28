@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddd53084-3b36-4dd5-9632-8e0c548edd08">
+  <producedTypes>
+    <objectType typeId="ea94dd0c-cd75-4244-a49d-3011d8fa5c04" valueTypeId="f292c42c-a3be-4aa2-960a-6560fabbcb3b"/>
+    <refType typeId="f92ea947-5842-4bde-b8f6-402b8d6fb83f" valueTypeId="e5c1ccf5-2b7c-4c68-9fc6-d259c393671c"/>
+    <selectionType typeId="087ed964-a6aa-4293-894e-620ae5796695" valueTypeId="3e0bef03-7406-46b1-8b39-d9c9a967ce9a"/>
+    <listType typeId="f02974d5-493b-49b8-86cf-f98abf786007" valueTypeId="b465e343-7e73-4991-9745-ade52f8cc62b"/>
+    <managerType typeId="c25d39c2-f8db-46fd-92a7-f9313ba9b9d5" valueTypeId="126a1037-d7ee-4fe0-abe7-624983fda68f"/>
+  </producedTypes>
+  <name>Сценарии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сценарии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сценарий</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Используется как аналитический элемент</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>5</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сценарии.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Сценарии.Form.ФормаГруппы</defaultFolderForm>
+  <attributes uuid="33554729-8e01-4fe7-a442-ff2a6ba371d9">
+    <name>НачалоДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f500ed1a-d1fe-450d-bdbc-166f6cb10557">
+    <name>ОкончаниеДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff63054c-288c-4b4b-9155-e7026936f49b">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da4761c0-4c3f-4e69-a60c-498a5e2b803a">
+    <name>ВидыБюджетногоАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды бюджетного анализа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыБюджетногоАнализа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8b97fd77-5294-400c-b3cd-b687f125c2c0">
+    <producedTypes>
+      <objectType typeId="82e00359-c598-422f-abc7-7651ea3eff76" valueTypeId="3c4ff517-938b-4780-aac6-5cff4bb56796"/>
+      <rowType typeId="b1545bb1-81d0-438c-b256-62f3275996d0" valueTypeId="4175c9cf-c306-4d37-b4bc-550b59cd71cd"/>
+    </producedTypes>
+    <name>ПериметрКонсолидации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периметр консолидации</value>
+    </synonym>
+    <attributes uuid="bc6aaec3-6bb3-461b-a66e-90262a3976db">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="968cf6f1-8b3a-4426-9b79-4b208e9138be">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4de27d3b-a099-4ef6-b7e9-c5e381f93ed7">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="419edadf-e78d-4d41-be1f-755e6fdb9519">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

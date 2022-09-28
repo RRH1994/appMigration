@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1084fc59-0458-4226-b2a0-ee9aa680aa44">
+  <producedTypes>
+    <managerType typeId="887e03c6-123b-46bd-9754-5b32e052f244" valueTypeId="6ca626b1-b10a-40f0-9791-942006552be0"/>
+    <valueManagerType typeId="c4d23442-97eb-4ef1-8453-d4cad7e349e0" valueTypeId="3c312307-e9f7-4c69-bca7-3c6f2558f3bc"/>
+    <valueKeyType typeId="3dbc2215-08c9-4008-9a2b-fbee10a42ff6" valueTypeId="49cb3462-f9eb-471f-9016-9edb59fec5ec"/>
+  </producedTypes>
+  <name>ИспользоватьРасчетБюджетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет бюджетирования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

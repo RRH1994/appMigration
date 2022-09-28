@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3095b0-8830-43ed-b68d-626b739d6c7e">
+  <name>БюджетированиеПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование (прочее)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.БазовыеПраваБюджетированиеПриложения</content>
+  <subsystems>КонфигурацииБюджетированиеРасширенная</subsystems>
+  <subsystems>ОрганизационнаяСтруктура</subsystems>
+  <subsystems>ОтложенноеПроведениеДокументов</subsystems>
+  <subsystems>МногопотоковоеЗаполнениеДокументов</subsystems>
+  <subsystems>БазовыеСправочныеДанные</subsystems>
+  <subsystems>БюджетированиеКомандныйИнтерфейс</subsystems>
+</mdclass:Subsystem>

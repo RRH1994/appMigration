@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77e07f87-6733-4772-8027-63f711a8270b">
+  <producedTypes>
+    <objectType typeId="ef2bc4c0-89c5-409a-afcb-323600a3fab0" valueTypeId="ecbd3222-a313-4cae-bd30-797ac57e6e0d"/>
+    <refType typeId="0656892e-4bf9-4bcd-9624-d2ac42aa327e" valueTypeId="146b3d2a-3992-4976-bbcd-da0bff592d1b"/>
+    <selectionType typeId="c0b7c028-8499-418a-b3a8-33cad941a98e" valueTypeId="dbb72e97-7efe-4535-aa87-c2ad7225e683"/>
+    <listType typeId="0237de3b-927d-4a3d-8a23-471b7792e0ba" valueTypeId="94f7da5a-14c0-42ca-98a6-c15f737593f3"/>
+    <managerType typeId="1fce2b17-b95d-46f5-b748-09e210ad2f78" valueTypeId="5b4a6638-d725-4522-bdea-32901f5bb7af"/>
+  </producedTypes>
+  <name>МестаВозникновенияЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места возникновения затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаВозникновенияЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестаВозникновенияЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Место возникновения затрат</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>5</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МестаВозникновенияЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.МестаВозникновенияЗатрат.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.МестаВозникновенияЗатрат.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="528f5552-06e8-4063-b929-69e2d5f0a5e3">
+    <name>ЦентрЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦентрыЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Catalog.МестаВозникновенияЗатрат.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fde65f6c-81a6-4439-9b59-84766368e8b9">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ab5cb235-79d4-4c67-ba49-00833b8d3f39">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ad764a1-78a0-461c-a16c-755d49d56d52">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e9920770-d95e-4fa6-b19c-4863f191be6f">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fd63c8ca-d272-4b1c-9338-1986a61d6386">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

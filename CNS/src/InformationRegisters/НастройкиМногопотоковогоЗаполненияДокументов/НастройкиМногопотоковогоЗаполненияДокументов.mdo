@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="282327dc-f904-4605-add2-6e6f511924c1">
+  <producedTypes>
+    <selectionType typeId="042a7221-3cbb-43e0-91b6-a814f74ed1ae" valueTypeId="0ac1d396-7f02-404f-905e-d2ac653a2baa"/>
+    <listType typeId="9819f988-09a8-45f4-80d4-b5dc4e256332" valueTypeId="485cca7e-09c5-4537-a818-825301b7cd90"/>
+    <managerType typeId="5c9449f6-9911-4b07-b341-285656b50276" valueTypeId="2ae330db-f58f-42e4-a8b9-309f08c7af88"/>
+    <recordSetType typeId="912e1a3f-ab3c-476b-b9e2-4cbc8e5e1517" valueTypeId="f59b5024-2c3e-4804-9479-5f4c0b94e055"/>
+    <recordKeyType typeId="1db03168-f4fa-4bac-bfca-e2aca413ecba" valueTypeId="60a6ea59-d569-4a61-a667-85a8e605a3fe"/>
+    <recordType typeId="6dcd0746-2ae4-4e65-988d-442784f669e2" valueTypeId="dad789ed-c4d7-4f00-a2d2-8badcbcc71cf"/>
+    <recordManagerType typeId="bd0a1eef-1366-4cd9-86b2-cd3ba483e005" valueTypeId="c08f2150-a1e9-4b9c-9c2a-06a6efc45836"/>
+  </producedTypes>
+  <name>НастройкиМногопотоковогоЗаполненияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки многопотокового заполнения документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1282c7c0-6bfc-4c61-9df3-5c8fe7cfc5d9">
+    <name>КоличествоФизическихЛицВПакете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество физических лиц в пакете</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="283bfeec-9642-43a5-9d20-6bd2ba54861c">
+  <producedTypes>
+    <refType typeId="bbda5439-d526-461c-a570-a2f185655134" valueTypeId="e69d47f5-8d72-45d4-bd44-fff7b00fc6d3"/>
+    <listType typeId="f3317e2a-ee03-4389-a429-797d03d8b7d3" valueTypeId="603f0917-7aff-4df9-bf17-4fd74da858f9"/>
+    <managerType typeId="7bb995f4-8fae-46e9-8dc1-5ffcd1cd03ac" valueTypeId="d6ba0d02-3dfd-44b0-be57-99750c26bc1f"/>
+  </producedTypes>
+  <name>СпособыОтраженияРезультатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы отражения результатов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b1801f1-eb5b-4185-847c-5b50006b1f3a">
+    <name>РасчетПоФормулеКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по формуле (корр)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12d25870-48f9-4be8-93f6-9e8a6067e23b">
+    <name>РасчетПоФормулеПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по формуле (прочее)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48c82a14-c689-4bd9-a9c3-8f813d317f6d">
+  <producedTypes>
+    <selectionType typeId="d9731be0-c715-4b11-9080-44e67f867a5f" valueTypeId="20bab0aa-11fc-46f0-951e-1c805c35bf76"/>
+    <listType typeId="f2fcfdfd-6064-4292-99fd-2ecb1ea1b174" valueTypeId="eceeab4b-b8a6-4029-ae09-b1957c19f9ae"/>
+    <managerType typeId="4aafb8f1-e765-443d-8194-a8ebe95ede8b" valueTypeId="396e9eb0-be38-4cc8-bcfa-d4686d99259d"/>
+    <recordSetType typeId="43752c39-e263-4d1a-8d60-9b305cfb4f01" valueTypeId="145b64b6-4e19-456e-a7e1-b8b8c64ebeec"/>
+    <recordKeyType typeId="337dcaf4-31da-4834-97fb-5fb603443f92" valueTypeId="2b70030b-711a-4b1f-ae5e-b79567205138"/>
+    <recordType typeId="d1527d97-7507-43aa-86de-49bde253f79e" valueTypeId="83c3a300-989b-4ef6-9851-21af267fcf04"/>
+    <recordManagerType typeId="d2e47b6b-d63b-48b7-ba6e-a2141e6e60bd" valueTypeId="80f29dd9-8397-449d-96b3-730634f1e568"/>
+  </producedTypes>
+  <name>ГруппировкиНачисленийПоСтатьямЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группировки начислений по статьям затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ГруппировкиНачисленийПоСтатьямЗатрат.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ГруппировкиНачисленийПоСтатьямЗатрат.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Группировка начислений по статьям затрат</value>
+  </recordPresentation>
+  <resources uuid="b0ad1783-04dd-4874-9c15-c7ef89071d8e">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1fe2bd08-4960-4bc3-b979-358dd877e5cb">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0235e57d-88f5-48c7-8b91-99af741f0ce0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f27ca9f9-d368-4285-ae24-c37ab3b2609e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cee5d766-7238-40ac-af70-4257d997587e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка видов начислений по статьям затрат</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

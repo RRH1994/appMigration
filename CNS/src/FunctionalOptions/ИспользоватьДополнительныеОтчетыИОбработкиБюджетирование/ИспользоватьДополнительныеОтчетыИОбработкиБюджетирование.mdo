@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1be2ce6-849e-4452-8713-e31470bd8608">
+  <name>ИспользоватьДополнительныеОтчетыИОбработкиБюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные отчеты и обработки бюджетирование</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеОтчетыИОбработки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+</mdclass:FunctionalOption>

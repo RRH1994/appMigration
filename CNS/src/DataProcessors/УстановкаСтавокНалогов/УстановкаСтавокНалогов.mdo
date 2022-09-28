@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d142266-8a2b-4d86-90d6-75e4f2005e32">
+  <producedTypes>
+    <objectType typeId="f9342dff-0bac-4403-9585-e29da5beb525" valueTypeId="cf477474-3ac2-4197-8038-aee9364125c9"/>
+    <managerType typeId="e2a3b107-295b-4764-9545-b0123bf2015c" valueTypeId="b358f07e-386f-4bf2-8b3b-8e424427b738"/>
+  </producedTypes>
+  <name>УстановкаСтавокНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка ставок налогов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаСтавокНалогов.Form.Форма</defaultForm>
+  <forms uuid="f2962073-9e22-4d16-b2ee-4e2c4e13f048">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cdd76a7e-d74a-46f0-a91c-8328430a9dd7">
+    <name>СтавкиНалогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставки налогов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

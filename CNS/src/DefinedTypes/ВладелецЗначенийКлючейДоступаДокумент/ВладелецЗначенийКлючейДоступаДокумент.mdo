@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1492463-4c75-45bb-8425-9db5c7a49cbb">
+  <producedTypes>
+    <containerType typeId="c1dab35f-a206-4b87-9052-78ae251e5a43" valueTypeId="561266ce-ed21-4b45-a01d-f8c0e352e709"/>
+  </producedTypes>
+  <name>ВладелецЗначенийКлючейДоступаДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец значений ключей доступа документ</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ЗагрузочнаяТаблица</types>
+    <types>DocumentObject.РасчетПоказателейБюджетовПрогнозов</types>
+    <types>DocumentObject.РасчетРезерва</types>
+    <types>DocumentObject.БюджетПрогнозПоНачислению</types>
+    <types>DocumentObject.БюджетПрогнозПоОплате</types>
+  </type>
+</mdclass:DefinedType>

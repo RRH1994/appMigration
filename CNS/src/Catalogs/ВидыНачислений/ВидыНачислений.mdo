@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6c5bc95-1cd1-4c14-a01f-ab4ba588af93">
+  <producedTypes>
+    <objectType typeId="1af9e610-eb88-411c-bb59-d1cc579f2604" valueTypeId="0f3056cf-e35c-4d66-8068-f0b53ff8b2dc"/>
+    <refType typeId="ca4a7900-3bcc-4ada-b95a-c2a69bb07667" valueTypeId="914e79f4-ac42-4998-8c7d-716f9ab3b75c"/>
+    <selectionType typeId="f4814610-2fe3-471b-84a5-1fb8e340a1f7" valueTypeId="ecf169f1-8704-4f28-ae71-dcc3fc983f35"/>
+    <listType typeId="a228300b-ec7b-41af-8e3d-18fe65c2d20d" valueTypeId="1ad3b7cf-b10e-485b-8130-a46712e0b22b"/>
+    <managerType typeId="12842afb-4beb-45f4-9d9a-f4ae5ebad6e2" valueTypeId="13ca8460-dfc5-4e8e-ab52-b2d05ed7a57e"/>
+  </producedTypes>
+  <name>ВидыНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНачислений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНачислений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Начисление</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>5</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d0971317-d910-47ee-8317-c77d01dffac3">
+      <name>ВзносыВПФР</name>
+      <description>Взносы в ПФР</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="35137239-e330-4a41-99de-f175d05fa999">
+      <name>ГодоваяПремия</name>
+      <description>Годовая премия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2140d82a-8820-4fbe-aa97-57c33b60055d">
+      <name>ДМС</name>
+      <description>ДМС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="ff211bd8-4334-414f-bb88-99a755d820e7">
+      <name>ДоплатаЗаФункционалОбразовательнойДеятельности</name>
+      <description>Доплата за выполнение работ по функционалу образовательной деятельности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="eefe6b7c-7bd7-4942-abb2-da7d64e392a5">
+      <name>ДоплатаЗаПреподаваниеНаИнЯзыке</name>
+      <description>Доплата за преподавание на ин. языке на уровне носителя языка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="7bda77f4-a28c-41c6-8daa-f53e1eadbc5b">
+      <name>ЕжемесячнаяПремия</name>
+      <description>Ежемесячная премия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="55059584-1f2c-4b5f-9baa-797863142dde">
+      <name>Зарплата</name>
+      <description>Зарплата</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="c303f2e5-0d68-4c47-9a83-89b16c81a656">
+      <name>КвартальнаяПремия</name>
+      <description>Квартальная премия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="09eaedcd-7891-4c6f-8324-165de146a5a4">
+      <name>НСиБолезни</name>
+      <description>Несчастные случаи и болезни</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="4bb1fad3-e953-4dfa-9a89-31efa6aa4118">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="512f4eee-13a8-403b-92af-8b61d5eca7e0">
+      <name>ПремияЗаПолугодие</name>
+      <description>Премия за полугодие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="e1316d5f-13dd-432c-a06a-01531f96089f">
+      <name>РезервНаСреднийЗаработок</name>
+      <description>Резерв на средний заработок, отпуск, командировка, сверхурочные (ежемесячно)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="932e7675-cb79-43be-a4fc-caf9c848c899">
+      <name>СтраховыеВзносыВПФР</name>
+      <description>Страховые взносы в ПФР</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="3ecbe6c3-de3f-412f-9a1a-b80816af7a07">
+      <name>СтраховыеВзносыВФСС</name>
+      <description>Страховые взносы в ФСС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="463692c9-c7de-4819-9af1-2ff2682b4f29">
+      <name>СтраховыеВзносыВФФОМС</name>
+      <description>Страховые взносы в ФФОМС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="d7eec12c-c669-47ec-b3f9-6a264ce764cc">
+      <name>СтраховыхВзносовНаТравматизм</name>
+      <description>Страховые взносы на травматизм</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыНачислений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыНачислений.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c843ccf7-8b45-410d-807e-80d49a1d4484">
+    <name>ЯвляетсяПремией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является премией</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6c14dec-39ac-42d4-b087-bd82981e117d">
+    <name>ВыплачиваетсяПриНачислении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплачивается при начислении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="970cd27c-3ecb-473d-89ed-9d1704cf5fd7">
+    <name>УстанавливаютсяКоэффициенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливаются коэффициенты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62a07f81-0b52-4d52-b827-100f1c261dfd">
+    <name>ВключатьВФОТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать в ФОТ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0636aae0-c48d-438f-83e1-3ccc3ddda9df">
+    <producedTypes>
+      <objectType typeId="20e8f985-1d46-437e-9f63-5f4bc415c230" valueTypeId="3b8d79ad-f56f-4787-86c0-405fea992727"/>
+      <rowType typeId="2c098b98-6eb7-4afb-b67f-bf5c4bba3775" valueTypeId="8713f618-f0b1-4e0a-ad48-7f2a7a516102"/>
+    </producedTypes>
+    <name>ДоступныеПериодыХраненияЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные периоды хранения значений</value>
+    </synonym>
+    <attributes uuid="f4a80e8b-812b-4ca0-b5bc-b0fbda274034">
+      <name>Период</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыХраненияЗначений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6d205957-1cb4-42b5-a803-aa5b1752002f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a25b379-b1c9-4d73-8fbb-50791772414c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5858067a-c528-49c1-b15f-61b99fb4ed57">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+  <templates uuid="3399a7f6-2865-4333-ad7f-af07213d95e0">
+    <name>ПоставляемыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемые данные</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

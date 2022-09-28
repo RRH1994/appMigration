@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d098e3a-dcba-4c15-bc7a-e10fc2ee226f">
+  <name>ОрганизационнаяСтруктура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организационная структура</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.СтруктураПредприятия</content>
+  <parentSubsystem>Subsystem.БюджетированиеПриложения</parentSubsystem>
+</mdclass:Subsystem>

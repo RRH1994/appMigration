@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0de3971b-73db-4016-bfa8-176a4e3f2fb4">
+  <name>ВводДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗагрузочнаяТаблица</content>
+  <content>InformationRegister.КадровыеСведенияСотрудниковОрганизаций</content>
+  <content>Role.ИнтерфейсРабочегоСтолаАудитора</content>
+  <content>Role.ИнтерфейсРабочегоСтолаБюджетногоКонтролера</content>
+  <content>Role.ИнтерфейсРабочегоСтолаПоставщикаДанных</content>
+  <content>Role.ИнтерфейсРабочегоСтолаРуководителя</content>
+  <parentSubsystem>Subsystem.Бюджетирование</parentSubsystem>
+</mdclass:Subsystem>

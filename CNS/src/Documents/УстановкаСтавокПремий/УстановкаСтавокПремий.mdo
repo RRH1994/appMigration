@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5895f07-eed8-4085-ba86-5e29c415e165">
+  <producedTypes>
+    <objectType typeId="6f8f04f9-6dfc-4bfb-91dc-838a37bf50f6" valueTypeId="04861f26-8da0-4558-9e78-f397b5f940b9"/>
+    <refType typeId="568e7e8c-f015-49fa-b591-c3a07c59396d" valueTypeId="a34a56ce-e527-4783-815c-fa41b272ff51"/>
+    <selectionType typeId="ebebdd83-a994-4102-8edc-5541c87c89d3" valueTypeId="876d7390-d4ce-4971-aa1a-ad66f5b63179"/>
+    <listType typeId="a3b1106f-8d6f-4132-ab56-18da0277fb03" valueTypeId="0b6f52ba-8b95-4313-b3cc-9638882de3c2"/>
+    <managerType typeId="4f7249ba-2f3d-4c49-ac4e-0a65b733073b" valueTypeId="9ef0d929-ccbe-4574-8e44-d5facca93d2a"/>
+  </producedTypes>
+  <name>УстановкаСтавокПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка ставок премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаСтавокПремий.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаСтавокПремий.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СтавкиПремий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="55d896cb-1918-4b07-9aea-2cce23424c98">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ea7c9d9-38d0-41ef-b29e-6f1e93105996">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25951fef-1ab9-4e1f-b086-2f13e5d4f039">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f5b1c79-da7e-4e24-b6d4-1f648da2331a">
+    <name>КодГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УстановкаСтавокПремий.Attribute.Грейд</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3a8286a-29c8-4a0e-b694-f1a2f0352cc9">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (%)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2c72197e-c2a9-4210-97b8-9aacd12c16f9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

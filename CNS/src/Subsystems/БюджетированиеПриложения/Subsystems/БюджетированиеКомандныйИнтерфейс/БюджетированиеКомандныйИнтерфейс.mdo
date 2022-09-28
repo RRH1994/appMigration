@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0a36204-d23c-4272-9969-d06ee94645fc">
+  <name>БюджетированиеКомандныйИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование командный интерфейс</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption.ИспользоватьДополнительныеОтчетыИОбработкиБюджетирование</content>
+  <content>CommonModule.БюджетированиеКомандныйИнтерфейс</content>
+  <content>Role.ПодсистемаБюджетирование</content>
+  <content>Role.ИнтерфейсРабочегоСтолаАудитора</content>
+  <content>Role.ИнтерфейсРабочегоСтолаПоставщикаДанных</content>
+  <content>Role.ИнтерфейсРабочегоСтолаРуководителя</content>
+  <content>Role.ИнтерфейсРабочегоСтолаБюджетногоКонтролера</content>
+  <content>Role.ИспользованиеОсновногоРабочегоСтола</content>
+  <content>CommonForm.ОсновнаяФормаРабочегоСтола</content>
+  <content>Catalog.Грейды</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.КодыГрейдов</content>
+  <content>Catalog.МестаВозникновенияЗатрат</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.ПозицииШтатногоРасписания</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.СервисныеПроекты</content>
+  <content>Document.ЗагрузочнаяТаблица</content>
+  <content>InformationRegister.КадровыеСведенияСотрудниковОрганизаций</content>
+  <parentSubsystem>Subsystem.БюджетированиеПриложения</parentSubsystem>
+</mdclass:Subsystem>

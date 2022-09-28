@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="739bd8be-bb8c-4b74-9cb1-3b41c9aebbf1">
+  <producedTypes>
+    <objectType typeId="d64c9850-1c93-4243-816b-318e89fb7e75" valueTypeId="c6376c05-d3eb-4542-94bd-4e0a21321ac9"/>
+    <refType typeId="41b59765-5b12-4423-ab93-ed50f66404bb" valueTypeId="bd4b3447-ae71-4cf5-adff-b7e68dc9bc42"/>
+    <selectionType typeId="a7e9cef6-9aaa-4ce2-98f8-621e3e730b32" valueTypeId="b6e28f2a-eefd-4756-bb6b-1a2137461642"/>
+    <listType typeId="82d91ec8-2a54-4f65-875b-f1fb7c7a34b7" valueTypeId="0996f027-7ffd-425d-994f-c1a9b4699677"/>
+    <managerType typeId="2c7b1c90-4a2d-4afb-99e5-ddfdb51ca050" valueTypeId="17fa00d5-3201-499c-8e71-2b8d1a4e7cc0"/>
+  </producedTypes>
+  <name>КодыГрейдов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды грейдов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодыГрейдов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КодыГрейдов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Код грейда</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Грейды</owners>
+  <subordinationUse>ToFoldersAndItems</subordinationUse>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КодыГрейдов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КодыГрейдов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="cc9913c0-62f9-4564-82c9-1a4da6df20bf">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="69e6e031-5f6e-4165-8f98-8a5eed69dd3d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35fdb318-6527-412c-a5a1-f0bfe480447b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="42a8b8d5-a928-45dd-9b85-b2776a94befa">
+    <name>МакетОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет объекта</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

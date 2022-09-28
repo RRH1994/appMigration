@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d35e597-fe09-4d2d-b01a-68465b3fb44f">
+  <producedTypes>
+    <selectionType typeId="378f78e8-afe1-4ece-acb2-20937a5b816e" valueTypeId="a634af0b-4552-45b7-93fe-71a1ecb6d3a9"/>
+    <listType typeId="1ad843fd-986e-417f-ab51-71a9d476dca9" valueTypeId="c506dd48-9aba-4925-baa0-c1e818533603"/>
+    <managerType typeId="e5735ff8-ea85-4dac-b360-2816c402c00d" valueTypeId="296612db-085b-4ce6-8040-90c24f40921f"/>
+    <recordSetType typeId="8921571b-43cb-4c6e-a21c-1123f1866a2c" valueTypeId="b4953746-996c-410d-980b-076a2e8c9ff8"/>
+    <recordKeyType typeId="57721dc1-e571-40d2-a88f-54e6c439e892" valueTypeId="eb0074a7-c63e-425b-8591-31010cdf02cd"/>
+    <recordType typeId="a2298f50-b90e-4e98-97aa-49f8818f002c" valueTypeId="418e5866-8b90-46d8-8a8e-eaa43082d2ac"/>
+    <recordManagerType typeId="725d843b-88b1-4bc5-ab18-9739c21dec9e" valueTypeId="fc333ce3-ff48-4c4a-95d9-d539c6c2a398"/>
+  </producedTypes>
+  <name>КоэффициентыНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Ежегодные коэффициенты, применяемые к суммам начислений в каждом конкретном периоде расчета бюджетов</value>
+  </explanation>
+  <resources uuid="11ae071c-c8bc-465b-ae62-57f88e4c3a3c">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a66ffc6e-733f-4094-bea2-69edbafefddc">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сценарии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5061d617-1fc9-4a0f-8d16-5a31f31c0789">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f9d0087-9f15-4036-b1c6-86119b52bad7">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодыХраненияЗначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="b5a64452-e469-4d18-8df8-7969df787d74">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффиценты к суммам начислений</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

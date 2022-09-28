@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f069f18b-681c-4065-90ae-966dd6b1fd98">
+  <producedTypes>
+    <objectType typeId="abf4e0b7-db37-451f-8e6a-d052b30b304f" valueTypeId="858cf54b-ebac-420b-99d0-fd6eb87bcc6f"/>
+    <managerType typeId="17b834eb-749c-4fb8-b659-05779620fd0c" valueTypeId="8f3f7910-be94-4bf0-9291-8bfe84fc867d"/>
+  </producedTypes>
+  <name>РасчетыПоказателейБюджетаСводный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты показателей бюджета (сводный)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасчетыПоказателейБюджетаСводный.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="60bf2c4d-b894-4c85-8000-cfb1b058e77b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

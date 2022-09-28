@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba6f385-b0af-4fd3-8343-8c5b4c98ce50">
+  <name>БюджетированиеРасширеннаяПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование расширенная подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>РасчетБюджетированиеРасширенная</subsystems>
+</mdclass:Subsystem>

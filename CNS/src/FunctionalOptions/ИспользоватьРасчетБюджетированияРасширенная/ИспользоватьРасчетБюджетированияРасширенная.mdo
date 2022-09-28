@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd46d13-382a-4552-90aa-c951c53b79eb">
+  <name>ИспользоватьРасчетБюджетированияРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет бюджетирования расширенная</value>
+  </synonym>
+  <location>Constant.ИспользоватьРасчетБюджетирования</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Бюджетирование</content>
+  <content>Subsystem.БюджетированиеПодсистемы</content>
+  <content>Subsystem.БюджетированиеПриложения</content>
+  <content>Subsystem.СтандартныеПодсистемы</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Catalog.Сценарии</content>
+  <content>Catalog.ВидыНачислений</content>
+  <content>Catalog.ВидыВнебюджетныхФондов</content>
+  <content>Catalog.СервисныеПроекты</content>
+  <content>Catalog.ИсточникиФинансирования</content>
+  <content>Catalog.ПозицииШтатногоРасписания</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.КодыГрейдов</content>
+  <content>Catalog.ГруппыДоступаФизическихЛиц</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Валюты</content>
+  <content>Document.БюджетПрогнозПоОплате</content>
+  <content>Document.БюджетПрогнозПоНачислению</content>
+  <content>Document.РасчетПоказателейБюджетовПрогнозов</content>
+  <content>Document.ЗагрузочнаяТаблица</content>
+  <content>Enum.СтатусыДокументовБюджетирования</content>
+  <content>Enum.МесяцыГода</content>
+  <content>Enum.СтатусыПозицииШтатногоРасписания</content>
+  <content>InformationRegister.КадровыеСведенияСотрудниковОрганизаций</content>
+  <content>InformationRegister.ГруппировкиНачисленийПоСтатьямЗатрат</content>
+  <content>InformationRegister.СтавкиПремий</content>
+  <content>InformationRegister.КоэффициентыНачислений</content>
+  <content>InformationRegister.СтавкиНалогов</content>
+  <content>AccumulationRegister.РасчетыПоказателейБюджетовПрогнозов</content>
+  <content>InformationRegister.НастройкиБюджетированияРасширенная</content>
+  <content>InformationRegister.НастройкиРасчетаБюджетированияРасширенный</content>
+  <content>DataProcessor.МенеджерРасчетаБюджетирования</content>
+  <content>DataProcessor.МенеджерРасчетаБюджетированияАрхивный</content>
+  <content>Enum.ВидыРасчетаБюджетныхПоказателей</content>
+  <content>Enum.ПериодыХраненияЗначений</content>
+  <content>Catalog.Грейды</content>
+  <content>Document.РасчетРезерва</content>
+  <content>DocumentJournal.ВсеБюджетныеДокументы</content>
+  <content>Subsystem.Администрирование.Subsystem.АдминистрированиеПодсистемыБюджетирования</content>
+  <content>ChartOfCharacteristicTypes.ОбъектыВерсионирования</content>
+  <content>Report.АнализНачисленийПоСтатьям</content>
+  <content>AccumulationRegister.РасчетыПоказателейРезервов</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="684a465b-943a-4b24-b330-7966cd10fff9">
+  <name>АдминистрированиеПодсистемыБюджетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование подсистемы бюджетирования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьВерсионированиеОбъектов</content>
+  <content>Constant.ИспользоватьНесколькоОрганизаций</content>
+  <content>Constant.НеИспользоватьНесколькоОрганизаций</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписейФизическиеЛица</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписейПодразделенияОрганизаций</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписей</content>
+  <content>Constant.ИспользоватьРасчетБюджетирования</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

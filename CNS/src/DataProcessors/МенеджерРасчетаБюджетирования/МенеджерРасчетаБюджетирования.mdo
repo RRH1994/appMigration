@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d695650-a559-4bb7-9ef3-fa2ca76a4c4f">
+  <producedTypes>
+    <objectType typeId="bc7597f4-81f6-4803-a4e6-add55b274de8" valueTypeId="1cab965b-ba28-4003-8d5e-6bf3c7528d31"/>
+    <managerType typeId="709adcb7-8b38-487d-b1db-d37aa5f63b21" valueTypeId="493d4e5c-e12d-49cc-86d9-bea219dd428e"/>
+  </producedTypes>
+  <name>МенеджерРасчетаБюджетирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер расчета бюджетирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

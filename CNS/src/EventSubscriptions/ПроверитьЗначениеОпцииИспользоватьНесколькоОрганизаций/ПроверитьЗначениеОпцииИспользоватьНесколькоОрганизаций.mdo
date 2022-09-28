@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b89f0d-1291-49b6-848b-279415c8c62e">
+  <name>ПроверитьЗначениеОпцииИспользоватьНесколькоОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить значение опции использовать несколько организаций</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОрганизацииСлужебный.ПроверитьЗначениеОпцииИспользоватьНесколькоОрганизацийПриЗаписи</handler>
+</mdclass:EventSubscription>

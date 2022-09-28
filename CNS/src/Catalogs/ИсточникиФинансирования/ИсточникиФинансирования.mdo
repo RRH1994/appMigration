@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a4f838-39ba-4809-b9d9-16a474521df6">
+  <producedTypes>
+    <objectType typeId="832b2216-3546-4188-b33b-23a54d537660" valueTypeId="180f002b-b8a2-4e87-9cb5-d0258f6053c8"/>
+    <refType typeId="eca5c8d3-7594-46bb-9200-4ba484445e10" valueTypeId="1f8e75f8-2707-4052-856c-42335cc2311a"/>
+    <selectionType typeId="101d4679-8429-4595-90b7-55ea1a9d0ec6" valueTypeId="d9a8c927-3f96-4313-b3ca-863a2fd22ca9"/>
+    <listType typeId="d836f73f-97a6-4f93-a051-61c5c6737338" valueTypeId="06a87db8-3afd-4410-9511-84352d194d37"/>
+    <managerType typeId="a6f3466e-4e65-4e91-ad24-64181242878d" valueTypeId="f94ac337-f2ff-4aed-88de-7de2a3616e99"/>
+  </producedTypes>
+  <name>ИсточникиФинансирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники финансирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиФинансирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиФинансирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Источник финансирования</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Источник финансирования, за счет которого финансируются расходы на сотрудника</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

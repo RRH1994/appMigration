@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03fdd4aa-e3eb-4a8b-bc9f-6f2f3058c27c">
+  <name>МастерБюджетыПрогнозы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер-бюджеты (прогнозы)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.БюджетПрогнозПоНачислению</content>
+  <content>Document.БюджетПрогнозПоОплате</content>
+  <parentSubsystem>Subsystem.Бюджетирование.Subsystem.ФормированиеБюджетовПрогнозов</parentSubsystem>
+</mdclass:Subsystem>

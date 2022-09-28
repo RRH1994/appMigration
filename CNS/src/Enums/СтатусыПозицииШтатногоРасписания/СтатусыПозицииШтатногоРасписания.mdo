@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc3ee826-50e5-4ad8-8400-93239bbfefad">
+  <producedTypes>
+    <refType typeId="853c764e-c245-4091-9dd3-dc75ecd0f395" valueTypeId="e0ec241f-0158-49ed-817c-6ab02242c125"/>
+    <listType typeId="f43e80e5-facf-4c7d-9e8d-f008d5969865" valueTypeId="3743ae41-78fa-48a7-a45d-155fe6ac8d4b"/>
+    <managerType typeId="396983d1-f5fa-4e42-b1a1-3a1f74b092c3" valueTypeId="9f4c205f-bb36-40a8-832e-63142da40afd"/>
+  </producedTypes>
+  <name>СтатусыПозицииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы позиции штатного расписания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы позиции штатного расписания</value>
+  </listPresentation>
+  <enumValues uuid="45261e01-d948-4509-9888-a3e890515043">
+    <name>Штат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8a6bab8-0c33-4494-9d3d-48cbb187b5cc">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
