@@ -36,6 +36,11 @@
 //
 //	КонецПроцедуры
 //
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-field-in-description-suggestion
+//@skip-check doc-comment-field-in-description-suggestion
+//@skip-check module-empty-method
+//@skip-check doc-comment-parameter-section
 Процедура ЗаполнитьСведенияОПодписяхДокументов(ОписаниеПодписей, Организация, ЗначенияПодписей, СтандартнаяОбработка, ДатаСведений = Неопределено) Экспорт
 	
 КонецПроцедуры
