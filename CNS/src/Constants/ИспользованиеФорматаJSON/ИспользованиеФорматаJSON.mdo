@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8256dfab-9952-4baf-b9c3-4d0c96b18790">
+  <producedTypes>
+    <managerType typeId="b3873ddf-07b8-4063-9806-4182302c23b4" valueTypeId="5b12252a-5bec-448e-a04b-eefcbea4e92e"/>
+    <valueManagerType typeId="e60497f2-8fed-48a5-b8c5-d8ce1b5c4340" valueTypeId="b13a1b30-ae67-413c-a88f-3a371348a3dd"/>
+    <valueKeyType typeId="32c9f062-22db-4e31-9124-c5b77ad71859" valueTypeId="e3499803-3bd3-4636-8ec2-38e587d10fa5"/>
+  </producedTypes>
+  <name>ИспользованиеФорматаJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование формата JSON</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
