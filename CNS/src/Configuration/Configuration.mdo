@@ -1797,6 +1797,7 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПрограммыЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
